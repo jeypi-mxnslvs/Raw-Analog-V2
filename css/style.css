@@ -37,16 +37,19 @@ li {
 }
 p {
     text-align: center;
-    width: 600px;
-    margin: 20px auto;
-    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
     color: white;
-    }
+}
 p img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 50px;
-    }
+    margin-bottom: 1px;
+}
 a {
     color: white;
     text-transform: uppercase;
